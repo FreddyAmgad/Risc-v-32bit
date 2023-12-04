@@ -1,0 +1,22 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim/glbl.v,1522737134,verilog,,,,glbl,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v,1700943480,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v,,DFlipFlop,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v,1700941126,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v,,Forward_unit,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v,1700943284,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/defines.v,rv32_ImmGen,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v,1701044207,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v,,Memory,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v,1700943178,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v,,N_bit_register,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v,1701001516,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/defines.v,RISC_V,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v,1701039025,verilog,,,,RISC_V_tb,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v,1701001840,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v,,alu_control,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v,1700943644,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v,,branch_control,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v,1700943836,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/defines.v,control_unit,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/defines.v,1700992952,verilog,,,,,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v,1700943456,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v,,four_by_two_mux,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v,1700941268,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v,,hazard_detector,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v,1700942390,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v,,mux,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v,1700993516,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v,,prv32_ALU,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v,1700943110,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v,,reg_file,,,,,,,,
+D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v,1700942456,verilog,,D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v,,shifter,,,,,,,,

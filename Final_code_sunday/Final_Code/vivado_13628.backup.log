@@ -1,0 +1,864 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov 27 00:40:42 2023
+# Process ID: 13628
+# Current directory: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10600 D:\UNI\Fall 2023\Archture\Testing vivado\omg\omg\Final_code_sunday\Final_Code\Final_Code.xpr
+# Log file: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/vivado.log
+# Journal file: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Vivado/Final_code_sunday/Final_Code' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/BCD.v', nor could it be found using path 'E:/Vivado/Final_code_sunday/verilod files/BCD.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Four_Digit_Seven_Segment_Driver.v', nor could it be found using path 'E:/Vivado/Final_code_sunday/verilod files/Four_Digit_Seven_Segment_Driver.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/UNI/Vivado/Program/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 769.559 ; gain = 117.355
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 807.141 ; gain = 0.449
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "RISC_V_tb_behav -key {Behavioral:sim_1:Functional:RISC_V_tb} -tclbatch {RISC_V_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source RISC_V_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+File opened successfully
+$stop called at time : 310 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 845.930 ; gain = 38.789
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISC_V_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 845.930 ; gain = 39.238
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 310 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 855.180 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 310 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 1006.141 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 1006.141 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1006.141 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1006.141 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.141 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1006.141 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Forward_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rv32_ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_bit_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2458] undeclared symbol stall, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:47]
+INFO: [VRFC 10-2458] undeclared symbol cf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol zf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol vf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol sf, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:69]
+INFO: [VRFC 10-2458] undeclared symbol branch_out, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+INFO: [VRFC 10-2458] undeclared symbol Branch, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemRead, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:91]
+INFO: [VRFC 10-2458] undeclared symbol MemWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ALUSrc, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol RegWrite, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol Byte, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol HalfWord, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2458] undeclared symbol ZeroExtention, assumed default net type wire [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/alu_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/branch_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/four_by_two_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module four_by_two_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/hazard_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/prv32_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prv32_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1403.148 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.mux_default
+Compiling module xil_defaultlib.N_bit_register(N=64)
+Compiling module xil_defaultlib.N_bit_register(N=164)
+Compiling module xil_defaultlib.N_bit_register(N=152)
+Compiling module xil_defaultlib.N_bit_register(N=137)
+Compiling module xil_defaultlib.N_bit_register_default
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.mux(N=12)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.rv32_ImmGen
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.prv32_ALU
+Compiling module xil_defaultlib.branch_control
+Compiling module xil_defaultlib.mux(N=2)
+Compiling module xil_defaultlib.four_by_two_mux
+Compiling module xil_defaultlib.Forward_unit
+Compiling module xil_defaultlib.hazard_detector
+Compiling module xil_defaultlib.mux(N=15)
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1403.148 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1403.148 ; gain = 0.000
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1403.148 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.sim/sim_1/behav/xsim'
+"xelab -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/UNI/Vivado/Program/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 42591bd2517a4c1fa4cba5afdb8971bb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_tb_behav xil_defaultlib.RISC_V_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'A' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/N_bit_register.v:23]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'addr' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:86]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 12 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:88]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 15 for port 'B' [D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V.v:114]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+File opened successfully
+$stop called at time : 410 ns : File "D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/verilod files/RISC_V_tb.v" Line 27
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1403.148 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1403.148 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 27 14:32:17 2023...

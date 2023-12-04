@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../verilod files/DFlipFlop.v" \
+"../../../../../verilod files/Forward_unit.v" \
+"../../../../../verilod files/ImmGen.v" \
+"../../../../../verilod files/Memory.v" \
+"../../../../../verilod files/N_bit_register.v" \
+"../../../../../verilod files/RISC_V.v" \
+"../../../../../verilod files/alu_control.v" \
+"../../../../../verilod files/branch_control.v" \
+"../../../../../verilod files/control_unit.v" \
+"../../../../../verilod files/four_by_two_mux.v" \
+"../../../../../verilod files/hazard_detector.v" \
+"../../../../../verilod files/mux.v" \
+"../../../../../verilod files/prv32_ALU.v" \
+"../../../../../verilod files/reg_file.v" \
+"../../../../../verilod files/shifter.v" \
+"../../../../../verilod files/RISC_V_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

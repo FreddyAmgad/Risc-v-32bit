@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov 27 00:40:42 2023
+# Process ID: 13628
+# Current directory: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10600 D:\UNI\Fall 2023\Archture\Testing vivado\omg\omg\Final_code_sunday\Final_Code\Final_Code.xpr
+# Log file: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/vivado.log
+# Journal file: D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UNI/Fall 2023/Archture/Testing vivado/omg/omg/Final_code_sunday/Final_Code/Final_Code.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source RISC_V_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

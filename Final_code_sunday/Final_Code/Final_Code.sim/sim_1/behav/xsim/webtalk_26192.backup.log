@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Nov 26 19:27:34 2023
+# Process ID: 26192
+# Current directory: D:/Auc/semester9/computer arch/project1/Fekry_24-11_code/Final_Code/Final_Code.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Auc/semester9/computer arch/project1/Fekry_24-11_code/Final_Code/Final_Code.sim/sim_1/behav/xsim/xsim.dir/RISC_V_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Auc/semester9/computer arch/project1/Fekry_24-11_code/Final_Code/Final_Code.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Auc/semester9/computer arch/project1/Fekry_24-11_code/Final_Code/Final_Code.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Auc/semester9/computer -notrace
+couldn't read file "D:/Auc/semester9/computer": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov 26 19:27:34 2023...

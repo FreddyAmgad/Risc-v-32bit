@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 26 20:16:33 2023
+# Process ID: 9748
+# Current directory: E:/Vivado/Final_code_sunday/Final_Code
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20792 E:\Vivado\Final_code_sunday\Final_Code\Final_Code.xpr
+# Log file: E:/Vivado/Final_code_sunday/Final_Code/vivado.log
+# Journal file: E:/Vivado/Final_code_sunday/Final_Code\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado/Final_code_sunday/Final_Code/Final_Code.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RISC_V [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{E:/Vivado/Final_code_sunday/verilod files/Four_One_mux_new.v}}] -no_script -reset -force -quiet
+remove_files  {{E:/Vivado/Final_code_sunday/verilod files/Four_One_mux_new.v}}
+launch_simulation
+source RISC_V_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -name rtl_1
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
