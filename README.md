@@ -58,6 +58,8 @@ The Immediate Generator takes a 32-bit instruction and produces a 32-bit immedia
 ## Visulization of the Processor
 ![WhatsApp Image 2023-12-04 at 4 35 53 AM](https://github.com/FreddyAmgad/Risc-v-32bit/assets/78415690/bc1e4f26-e0b3-43b3-a53c-46230540ad1a)
 
+## Project Video
+https://youtu.be/P9e4Ulz-0Do
 
 
 
