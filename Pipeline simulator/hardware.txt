@@ -1,7 +1,0 @@
-load 2 3
-store 2 3
-bne 1 10
-call/ret 1 1
-add/addi 3 1
-nand 1 1
-div 1 10
