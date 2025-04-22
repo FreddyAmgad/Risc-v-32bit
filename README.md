@@ -7,9 +7,6 @@ Welcome to the RISC-V 32-bit Processor Simulator in Verilog. This project offers
 ## Project Video
 https://youtu.be/P9e4Ulz-0Do
 
-# Pipeline simulator
-Welcome to our C++ project that simulates the pipelining process of a processor, utilizing assembly instructions sourced from a text file. Designed to provide insight into modern processor architectures, our simulator offers a robust platform for studying pipelining concepts. Through meticulous implementation in C++, users can observe the intricate stages of instruction execution, from fetching to writing back, all while gaining a deep understanding of how pipelining affects program performance. With support for diverse instruction sets and customizable parameters, our simulator serves as an invaluable resource for students, researchers, and developers seeking to explore and optimize processor design and performance.
-
 
 
 
